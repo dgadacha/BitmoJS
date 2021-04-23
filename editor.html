@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="items.js"></script>
+        <script type="text/javascript" src="category.js"></script>
+        <script type="text/javascript" src="save.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>BitmoJS</title>
+    </head>
+
+    <body onload="init(); items()">
+            <div class="container" style="margin: 50px;">
+                <div class="preview">
+                    <div class="bithead"><img id='preview_head' src='https://thumbs.gfycat.com/AgonizingDiligentHapuka-size_restricted.gif'></div>
+                    <div class="bitbody"><img id='preview' src='https://thumbs.gfycat.com/AgonizingDiligentHapuka-size_restricted.gif'></div>
+                </div>
+
+                <div class='items'>
+                    <h2 id="category_outfit" onclick="categorie('outfit')">- outfit</h2>
+                    <div id="outfit"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
